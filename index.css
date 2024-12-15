@@ -1,0 +1,66 @@
+.rubik-moonrocks-regular {
+    font-family: "Rubik Moonrocks", sans-serif;
+    font-size: 44px;
+    font-weight: 400;
+    font-style: normal;
+    color: bisque;
+  }
+
+  body {
+
+
+    text-align: center;
+  }
+
+  .container {
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 450px;
+    height: 600px;
+    border: 2px solid black;
+    margin: 10px auto;
+    padding: 20px 30px;
+    border-radius: 10px;
+  }
+
+  .img-container {
+    margin: 20px auto;
+    background-color:beige;
+    width: 320px;
+    height: 320px;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #img-el {
+    max-width: 300px;
+    max-height: 300px;
+    object-fit: cover;
+    margin: 5px auto;
+    align-items: center;
+  }
+
+  .btn-container {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .gen-btn {
+    font-family: "Rubik Moonrocks", sans-serif;
+    font-size: 28px;
+    display: flex;
+    background-color: rgb(231, 165, 43);
+    width: 150px;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+    padding: 0 5px;
+    margin: 20px auto;
+    border-radius: 15px;
+  }
+
+  .gen-btn:hover {
+    background-color: brown;
+  }
